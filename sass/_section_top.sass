@@ -1,0 +1,85 @@
+.section_top
+    width: 100%
+    height: inherit
+    font-weight: 700
+    padding-top: 50px
+
+    & .top_left 
+        margin-left: 80px
+        padding-top: 100px
+
+        & h1 
+            font-size: 50px
+            font-weight: 700
+            letter-spacing: -2px
+            line-height: 50px
+            color: #3b3b3b
+
+        & p 
+            font-size: 16px 
+            color: #8f8e8e
+            letter-spacing: -1px
+            padding-top: 15px
+
+        & button 
+            width: 150px 
+            height: 50px 
+            margin-top: 20px
+            background: #414040
+            color: #fff
+            border-radius: 5px 
+            
+
+        & img 
+            padding-top: 50px
+
+
+    & .slides 
+        width: 100%
+        height: 100%
+        
+        & .slides_item
+            width: 100%
+            height: 100%
+            z-index: 1
+            animation: fadeIn 1.8s
+
+
+    & .clear
+        position: relative
+        display: flex
+
+        & h3
+            font-weight: 700
+            padding-top: 20px 
+            color: #8b8b8b
+        
+        & .buttons 
+            display: flex
+            position: absolute
+            right: 0
+            padding-top: 27px
+
+            & button
+                width: 30px
+                height: 30px
+                margin: 5px
+                border-radius: 50%
+
+    & .dots_block
+        position: relative
+        top: 20px
+
+        & .dots_item
+            display: inline-block
+            width: 125px
+            height: 5px
+            border-radius: 10px
+            background: #b9b8b8
+            cursor: pointer
+
+            &:last-child
+                margin: 0
+            
+        & .active
+            background: #5b5a5c
