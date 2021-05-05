@@ -737,11 +737,76 @@ header .nav li a:hover {
 
 footer {
   padding-top: 80px;
-  background: url(../img/footer_back.png);
+  background: #fff;
   background-repeat: no-repeat;
   background-position: 30%;
   height: inherit;
   padding-bottom: 50px;
+}
+
+footer .circle_footer {
+  border-top: 70px solid #e2e2e2;
+  border-right: 90px solid #e2e2e2;
+  border-top-right-radius: 95%;
+  width: 245px;
+  height: 200px;
+  position: relative;
+  bottom: 0;
+  top: 50px;
+}
+
+footer .circle_footer .footer_dots1 {
+  width: 30px;
+  height: 40px;
+  top: -55px;
+  left: 100px;
+  background: #fff;
+  position: absolute;
+}
+
+footer .circle_footer .footer_dots2 {
+  width: 15px;
+  height: 17px;
+  top: -15px;
+  left: 130px;
+  background: #fff;
+  position: absolute;
+}
+
+footer .circle_footer .footer_dots3 {
+  width: 15px;
+  height: 17px;
+  top: -33px;
+  left: 145px;
+  background: #fff;
+  position: absolute;
+}
+
+footer .circle_footer .footer_dots4 {
+  width: 30px;
+  height: 30px;
+  bottom: 0;
+  left: 153px;
+  background: #ffffff;
+  position: absolute;
+}
+
+footer .circle_footer .footer_dots5 {
+  width: 15px;
+  height: 15px;
+  bottom: 30px;
+  left: 183px;
+  background: #ffffff;
+  position: absolute;
+}
+
+footer .circle_footer .footer_dots6 {
+  width: 15px;
+  height: 15px;
+  bottom: 45px;
+  left: 167px;
+  background: #ffffff;
+  position: absolute;
 }
 
 footer .mid {
