@@ -184,7 +184,7 @@ header .nav li a:hover {
   text-align: center;
   width: 100%;
   height: inherit;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 
 .section_mid h1 {
@@ -345,21 +345,87 @@ header .nav li a:hover {
   height: 90px;
 }
 
-.section_mid span {
-  height: 200px;
-  width: 240px;
+.section_mid .circle {
+  border-top: 70px solid #3b3b3b;
+  border-left: 90px solid #3b3b3b;
+  border-top-left-radius: 90%;
+  width: 245px;
+  height: 230px;
   position: absolute;
-  right: 55px;
-  background: #868383;
-  border-radius: 180px 0 0 0;
+  right: 50px;
   margin-top: -150px;
+}
+
+.section_mid .circle .circle_dot1 {
+  width: 36px;
+  height: 30px;
+  right: 14px;
+  position: absolute;
+  top: -70px;
+  background: #fff;
+}
+
+.section_mid .circle .circle_dot2 {
+  width: 15px;
+  height: 15px;
+  right: -90px;
+  position: relative;
+  top: -40px;
+  background: #fff;
+}
+
+.section_mid .circle .circle_dot3 {
+  width: 15px;
+  height: 15px;
+  right: -75px;
+  position: relative;
+  top: -70px;
+  background: #fff;
+}
+
+.section_mid .circle .circle_dot4 {
+  width: 30px;
+  height: 30px;
+  right: 30px;
+  top: 100px;
+  position: relative;
+  background: #fff;
+}
+
+.section_mid .circle .circle_dot5 {
+  width: 15px;
+  height: 15px;
+  right: 45px;
+  top: 55px;
+  position: relative;
+  background: #fff;
+}
+
+.section_mid .circle .circle_dot6 {
+  width: 15px;
+  height: 15px;
+  right: 30px;
+  top: 22px;
+  position: relative;
+  background: #fff;
 }
 
 .section_next {
   padding-top: 20px;
   padding-bottom: 70px;
-  background: url(../img/next_back.png);
+  background: #faf8f8;
   background-size: cover;
+}
+
+.section_next .circle_bottom {
+  border-bottom: 70px solid #b8b8b8;
+  border-left: 90px solid #b8b8b8;
+  border-bottom-left-radius: 95%;
+  width: 245px;
+  height: 200px;
+  position: absolute;
+  right: 98px;
+  margin-top: -20px;
 }
 
 .section_next h1 {
@@ -402,9 +468,9 @@ header .nav li a:hover {
 .section_bottom {
   width: 100%;
   height: inherit;
-  background: url(../img/bottom_back.png);
+  background: #0f393a;
   background-size: cover;
-  padding-bottom: 80px;
+  padding-bottom: 150px;
 }
 
 .section_bottom .left_bottom {
@@ -458,11 +524,55 @@ header .nav li a:hover {
   margin-top: 60px;
 }
 
-.section_bottom .left_bottom span {
-  height: 100px;
-  width: 100px;
-  background: #000;
-  color: #000;
+.section_bottom .left_bottom .chesses {
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.section_bottom .left_bottom .chesses .ch_dots1 {
+  position: absolute;
+  width: 110px;
+  height: 150px;
+  background: #fff;
+  left: -180px;
+  top: 70px;
+}
+
+.section_bottom .left_bottom .chesses .ch_dots2 {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  background: #fff;
+  left: -80px;
+  top: 32px;
+}
+
+.section_bottom .left_bottom .chesses .ch_dots3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  left: 30px;
+  top: 65px;
+}
+
+.section_bottom .left_bottom .chesses .ch_dots4 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  left: -10px;
+  top: 105px;
+}
+
+.section_bottom .left_bottom .chesses .ch_dots5 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  left: 30px;
+  top: 135px;
 }
 
 .section_bottom .right_bottom {
@@ -479,6 +589,50 @@ header .nav li a:hover {
   color: #9c9b9b;
   font-size: 16px;
   font-weight: 700;
+}
+
+.section_bottom .right_bottom .chess {
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+.section_bottom .right_bottom .chess .chess_dots1 {
+  background: #fff;
+  width: 50px;
+  height: 45px;
+  margin-top: -45px;
+  right: -15px;
+  position: absolute;
+}
+
+.section_bottom .right_bottom .chess .chess_dots2 {
+  background: #fff;
+  width: 48px;
+  height: 42px;
+  margin-top: -100px;
+  right: 50px;
+  position: absolute;
+  top: -20px;
+}
+
+.section_bottom .right_bottom .chess .chess_dots3 {
+  background: #fff;
+  width: 50px;
+  height: 42px;
+  margin-top: -100px;
+  right: 100px;
+  position: absolute;
+  top: -55px;
+}
+
+.section_bottom .right_bottom .chess .chess_dots4 {
+  background: #fff;
+  width: 50px;
+  height: 42px;
+  right: 100px;
+  position: absolute;
+  top: -80px;
 }
 
 .section_design {

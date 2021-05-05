@@ -1,9 +1,9 @@
 .section_bottom
     width: 100% 
     height: inherit
-    background: url(../img/bottom_back.png)
+    background: #0f393a
     background-size: cover
-    padding-bottom: 80px
+    padding-bottom: 150px
 
     & .left_bottom
         width: 600px
@@ -50,17 +50,57 @@
                 padding: 10px
                 margin-top: 60px
 
-        & span  
-            height: 100px
-            width: 100px
-            background: #000
-            color: #000
+        & .chesses  
+            position: relative
+            bottom: 0
+            left: 0
+
+            & .ch_dots1
+                position: absolute
+                width: 110px 
+                height: 150px 
+                background: #fff
+                left: -180px
+                top: 70px
+            
+            & .ch_dots2
+                position: absolute
+                width: 50px 
+                height: 40px 
+                background: #fff
+                left: -80px
+                top: 32px
+
+            & .ch_dots3
+                position: absolute
+                width: 40px 
+                height: 40px 
+                background: #fff
+                left: 30px
+                top: 65px
+                
+            & .ch_dots4
+                position: absolute
+                width: 40px 
+                height: 40px 
+                background: #fff
+                left: -10px
+                top: 105px
+            
+            & .ch_dots5
+                position: absolute
+                width: 40px 
+                height: 40px 
+                background: #fff
+                left: 30px
+                top: 135px
+
 
 
     & .right_bottom 
         position: relative
         top: 150px
-        padding: 0 0 0 80px 
+        padding: 0 0 0 80px
 
         & h3 
             color: #fff
@@ -70,8 +110,44 @@
             font-size: 16px
             font-weight: 700    
             
-
+        & .chess
+            position: relative
+            right: 0 
+            top: 0
+            
+            & .chess_dots1
+                background: #fff
+                width: 50px
+                height: 45px
+                margin-top: -45px
+                right: -15px
+                position: absolute
       
+            & .chess_dots2
+                background: #fff
+                width: 48px
+                height: 42px
+                margin-top: -100px
+                right: 50px
+                position: absolute
+                top: -20px
 
+            & .chess_dots3
+                background: #fff
+                width: 50px
+                height: 42px
+                margin-top: -100px
+                right: 100px
+                position: absolute
+                top: -55px
+
+            
+            & .chess_dots4
+                background: #fff
+                width: 50px
+                height: 42px
+                right: 100px
+                position: absolute
+                top: -80px
 
           
